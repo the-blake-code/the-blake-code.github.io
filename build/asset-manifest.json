@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.52a4402c.css",
-    "main.js": "/static/js/main.12a1e23a.js",
+    "main.css": "/static/css/main.304cd3da.css",
+    "main.js": "/static/js/main.ece344fd.js",
+    "static/media/noun-beetle-current.svg": "/static/media/noun-beetle-current.f883675f5e2ff7840f595d08e14bd9e9.svg",
+    "static/media/noun-beetle-classic.svg": "/static/media/noun-beetle-classic.29dc519d229bd8469d44cac19f292524.svg",
     "index.html": "/index.html",
-    "main.52a4402c.css.map": "/static/css/main.52a4402c.css.map",
-    "main.12a1e23a.js.map": "/static/js/main.12a1e23a.js.map"
+    "main.304cd3da.css.map": "/static/css/main.304cd3da.css.map",
+    "main.ece344fd.js.map": "/static/js/main.ece344fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.52a4402c.css",
-    "static/js/main.12a1e23a.js"
+    "static/css/main.304cd3da.css",
+    "static/js/main.ece344fd.js"
   ]
 }
