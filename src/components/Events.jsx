@@ -34,7 +34,7 @@ function Events() {
   return (
     <div className='fb-plugin-container'>
     <span>Under Construction. Please visit our Facebook Group by clicking the link below, then click Events tab to see all of our upcoming events!</span>
-    <span><a href"https://m.facebook.com/groups/vwcollectiveofmilwaukee/"></a>VW Collective of Milwaukee</span>  
+    <span><a href"https://m.facebook.com/groups/vwcollectiveofmilwaukee/">VW Collective of Milwaukee</a></span>  
       {/*  <iframe
         ref={iframeRef}
         src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvwcollectivemke%2F&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=3648775595415677'
