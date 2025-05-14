@@ -1,40 +1,43 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 
 function Events() {
+  const [iframeHeight, setIframeHeight] = useState('0px');
   const [footerHeight, setFooterHeight] = useState(0);
-  const [pluginHeight, setPluginHeight] = useState(0);
+  const iframeRef = useRef(null);
 
   useEffect(() => {
-    // Get footer height
     const footer = document.getElementById('footer');
     if (footer) {
       setFooterHeight(footer.offsetHeight);
     }
-    // Calculate plugin height
-    setPluginHeight(window.innerHeight - footerHeight);
-    // Handle window resize
+
     const handleResize = () => {
       const footer = document.getElementById('footer');
       if (footer) {
         setFooterHeight(footer.offsetHeight);
+        setIframeHeight(window.innerHeight - footerHeight + 'px');
       }
-      setPluginHeight(window.innerHeight - footerHeight);
+      setIframeHeight(window.innerHeight - footerHeight + 'px');
     };
 
+    setIframeHeight(window.innerHeight - footerHeight + 'px');
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  const onLoad = () => {
+    // if (iframeRef.current && iframeRef.current.contentWindow) {
+    iframeRef.current.contentWindow.postMessage({type: 'get-height'}, '*');
+    // }
+  };
+  console.log('ifreame height ', iframeHeight);
   return (
     <div className='fb-plugin-container'>
       <iframe
-        src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvwcollectivemke%2F&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=3648775595415677'
-        width='500'
-        height='1000'
-        scrolling='no'
+        src='https://widgets.sociablekit.com/facebook-group-events/iframe/25555829'
         frameborder='0'
-        allowfullscreen='true'
-        allow='autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share'
+        width='100%'
+        height='1000'
       ></iframe>
     </div>
   );

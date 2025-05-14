@@ -44,3 +44,25 @@ footer div {
 .icon-container {
   display: flex;
 }
+
+.profile-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image fills the space */
+  margin-bottom: 20px;
+}
+
+.profile-name {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.profile-description {
+  font-size: 1.2em;
+}
