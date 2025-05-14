@@ -1,16 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.1570d792.css",
-    "main.js": "/static/js/main.29814d5a.js",
+    "main.js": "/static/js/main.68df0578.js",
+    "static/media/matt.jpg": "/static/media/matt.ad36a6c1738e376b9581.jpg",
+    "static/media/mindy.jpg": "/static/media/mindy.b1454a022b6b0d1b1dde.jpg",
     "static/media/breeze.jpg": "/static/media/breeze.c55afcac9849b37a2815.jpg",
+    "static/media/mark.jpg": "/static/media/mark.7f45cf8beba32c6f0d15.jpg",
+    "static/media/amy.jpg": "/static/media/amy.680bffb63a7dd2804b0e.jpg",
     "static/media/noun-beetle-current.svg": "/static/media/noun-beetle-current.f883675f5e2ff7840f595d08e14bd9e9.svg",
     "static/media/noun-beetle-classic.svg": "/static/media/noun-beetle-classic.29dc519d229bd8469d44cac19f292524.svg",
+    "static/media/viviana.jpg": "/static/media/viviana.edad5a9e8809046be46f.jpg",
+    "static/media/oscar.jpg": "/static/media/oscar.9f70eddfcec7de062f6e.jpg",
+    "static/media/jimmy.jpg": "/static/media/jimmy.badf25aae8ba31eac7cc.jpg",
     "index.html": "/index.html",
     "main.1570d792.css.map": "/static/css/main.1570d792.css.map",
-    "main.29814d5a.js.map": "/static/js/main.29814d5a.js.map"
+    "main.68df0578.js.map": "/static/js/main.68df0578.js.map"
   },
   "entrypoints": [
     "static/css/main.1570d792.css",
-    "static/js/main.29814d5a.js"
+    "static/js/main.68df0578.js"
   ]
 }
