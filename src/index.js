@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import {
-  Navigation,
+  Header,
   Footer,
   Home,
   Events,
@@ -13,10 +13,11 @@ import {
   Posts,
   Post,
 } from "./components";
+import './styles/App.scss';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router>
-    <Navigation />
+  <HashRouter>
+    <Header />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/events" element={<Events />} />
@@ -27,7 +28,7 @@ root.render(
       </Route> */}
     </Routes>
     <Footer />
-  </Router>,
+  </HashRouter>,
 
   // document.getElementById("root")
 );
