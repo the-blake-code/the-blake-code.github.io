@@ -32,7 +32,7 @@ function Events() {
   };
   console.log('ifreame height ', iframeHeight);
   return (
-    <div className='fb-plugin-container'>
+    <div className='fb-plugin-container app-container'>
       <iframe
         src='https://widgets.sociablekit.com/facebook-group-events/iframe/25555829'
         frameborder='0'

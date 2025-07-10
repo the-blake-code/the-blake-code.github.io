@@ -4,7 +4,7 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import {
-  Navigation,
+  Header,
   Footer,
   Home,
   Events,
@@ -13,10 +13,11 @@ import {
   Posts,
   Post,
 } from "./components";
+import './styles/App.scss';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HashRouter>
-    <Navigation />
+    <Header />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/events" element={<Events />} />
