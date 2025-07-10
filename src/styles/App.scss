@@ -14,15 +14,16 @@ body {
   display: flex;
   // align-items: center;
 
-  &-image-container {
+  &-image-container picture {
     display: flex;
     justify-content: center;
     margin-top: 25px;
   }
   &-image-container img {
     max-width: 45%;
-    @media (max-width: 390px) {
-      max-width: 300px;
+    min-width: 600px;
+    @media (max-width: 651px) {
+      min-width: 100px;
     }
   }
 }
@@ -169,9 +170,9 @@ body {
 }
 
 .embla {
-  max-width: 100%;
+  // max-width: 100%;
   // margin: auto;
-  --slide-height: 800px;
+  // --slide-height: 800px;
   --slide-spacing: 1rem;
   --slide-size: 70%;
 }

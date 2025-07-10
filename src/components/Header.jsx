@@ -12,8 +12,21 @@ function Navigation() {
         </NavLink> */}
         <div className='home-page-image-container'>
           {/** Desktop */}
-
-          <img src={`${VWCLargeLogo}`} />
+          <picture>
+            <source
+              media='(min-width: 650px)'
+              srcset={`${VWCLargeLogo}`}
+              alt='Volkswagen Collective of Milwaukee Large Logo'
+            />
+            <source
+              srcset={`${VWCSmallLogo}`}
+              alt='Volkswagen Collective of Milwaukee Small Logo'
+            />
+            <img
+              src={`${VWCSmallLogo}`}
+              alt='Volkswagen Collective of Milwaukee Small Logo'
+            />
+          </picture>
         </div>
         <div>
           <ul className='navbar-nav'>
