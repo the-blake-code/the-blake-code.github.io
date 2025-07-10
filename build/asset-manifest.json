@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a62e026.css",
-    "main.js": "/static/js/main.402ea83d.js",
+    "main.css": "/static/css/main.52d1a502.css",
+    "main.js": "/static/js/main.16323a51.js",
     "static/media/vwc_full.png": "/static/media/vwc_full.71fc9b3b475ef3401e26.png",
     "static/media/505570676___n.jpg": "/static/media/505570676_4042763552645298_8298264385202654707_n.63ea3b8b9deab0a24689.jpg",
     "static/media/505735377___n.jpg": "/static/media/505735377_4041871209401199_7116951293701248453_n.64a3272d17b1bb5a0091.jpg",
@@ -10,6 +10,7 @@
     "static/media/505545658___n.jpg": "/static/media/505545658_4042763732645280_5660245755281234494_n.34969cdf111abbe9fe3b.jpg",
     "static/media/497760672___n.jpg": "/static/media/497760672_1206625701252723_4215189786585092225_n.4d85b06692235bf02a16.jpg",
     "static/media/489871392___n.jpg": "/static/media/489871392_2096957014111080_2663741102201713753_n.64a9eb5fe4c1a3894409.jpg",
+    "static/media/vwc_small.png": "/static/media/vwc_small.79331d7cccf80154795c.png",
     "static/media/495240152___n.jpg": "/static/media/495240152_10163848456225832_8952381079687875700_n.d17f2398ad929f849c71.jpg",
     "static/media/499214363___n.jpg": "/static/media/499214363_10163939436665832_3943121860271975553_n.3c456babff0c9f627242.jpg",
     "static/media/502947336___n.jpg": "/static/media/502947336_24154237074184308_7413523706222337540_n.377f59a35617155f5281.jpg",
@@ -42,11 +43,11 @@
     "static/media/oscar.jpg": "/static/media/oscar.9f70eddfcec7de062f6e.jpg",
     "static/media/jimmy.jpg": "/static/media/jimmy.badf25aae8ba31eac7cc.jpg",
     "index.html": "/index.html",
-    "main.4a62e026.css.map": "/static/css/main.4a62e026.css.map",
-    "main.402ea83d.js.map": "/static/js/main.402ea83d.js.map"
+    "main.52d1a502.css.map": "/static/css/main.52d1a502.css.map",
+    "main.16323a51.js.map": "/static/js/main.16323a51.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a62e026.css",
-    "static/js/main.402ea83d.js"
+    "static/css/main.52d1a502.css",
+    "static/js/main.16323a51.js"
   ]
 }
