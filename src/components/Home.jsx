@@ -98,18 +98,12 @@ function Home() {
   };
 
   return (
-    <div className='app-container home-page'>
+    <div className='app-page-container home-page'>
       <div className='mission-social-container'>
-        <h2 class='mission-social-title'>Our Mission</h2>
-        <p className='mission-social-text'>
-          Empowering Volkswagen enthusiasts and collectors through community
-          engagement, education, and preservation our 501(c)(3) nonprofit is
-          dedicated to fostering a passion for vintage, classic and modern
-          Volkswagens while promoting sustainability, inclusivity, and the
-          cultural significance of these iconic vehicles.
-        </p>
         <div className='mission-social-call-out-icons-container'>
-          <p class='mission-social-call-out'>Follow our club's adventures!</p>
+          <p className='mission-social-call-out'>
+            Follow our club's adventures!
+          </p>
 
           <div className='mission-social-icon-container'>
             <img

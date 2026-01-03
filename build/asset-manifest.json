@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.62435ce4.css",
-    "main.js": "/static/js/main.fecc7129.js",
+    "main.css": "/static/css/main.c1beba54.css",
+    "main.js": "/static/js/main.e787062d.js",
     "static/media/vwc_full.png": "/static/media/vwc_full.71fc9b3b475ef3401e26.png",
     "static/media/505570676___n.jpg": "/static/media/505570676_4042763552645298_8298264385202654707_n.63ea3b8b9deab0a24689.jpg",
     "static/media/505735377___n.jpg": "/static/media/505735377_4041871209401199_7116951293701248453_n.64a3272d17b1bb5a0091.jpg",
@@ -31,6 +31,8 @@
     "static/media/matt.jpg": "/static/media/matt.ad36a6c1738e376b9581.jpg",
     "static/media/mindy.jpg": "/static/media/mindy.b1454a022b6b0d1b1dde.jpg",
     "static/media/470493091___n.jpg": "/static/media/470493091_10235892287826749_5205097016053309833_n.3823d669180ada020792.jpg",
+    "static/media/bridgett.jpg": "/static/media/bridgett.208ce6b9f9f01c6b814a.jpg",
+    "static/media/prescott.jpg": "/static/media/prescott.2fd548773bce0e562cbb.jpg",
     "static/media/instagram-icon.png": "/static/media/instagram-icon.e9172ffc0b4c4f8bb808.png",
     "static/media/463420816___n.jpg": "/static/media/463420816_10234565620180887_4743376513436882469_n.6bf6c57c6a010a98a06d.jpg",
     "static/media/facebook-icon.png": "/static/media/facebook-icon.7aadcca9881ff01ba04a.png",
@@ -40,14 +42,13 @@
     "static/media/mark.jpg": "/static/media/mark.7f45cf8beba32c6f0d15.jpg",
     "static/media/amy.jpg": "/static/media/amy.680bffb63a7dd2804b0e.jpg",
     "static/media/viviana.jpg": "/static/media/viviana.edad5a9e8809046be46f.jpg",
-    "static/media/oscar.jpg": "/static/media/oscar.9f70eddfcec7de062f6e.jpg",
     "static/media/jimmy.jpg": "/static/media/jimmy.badf25aae8ba31eac7cc.jpg",
     "index.html": "/index.html",
-    "main.62435ce4.css.map": "/static/css/main.62435ce4.css.map",
-    "main.fecc7129.js.map": "/static/js/main.fecc7129.js.map"
+    "main.c1beba54.css.map": "/static/css/main.c1beba54.css.map",
+    "main.e787062d.js.map": "/static/js/main.e787062d.js.map"
   },
   "entrypoints": [
-    "static/css/main.62435ce4.css",
-    "static/js/main.fecc7129.js"
+    "static/css/main.c1beba54.css",
+    "static/js/main.e787062d.js"
   ]
 }
