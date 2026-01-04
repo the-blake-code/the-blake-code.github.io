@@ -30,9 +30,6 @@ function AboutUs() {
     return () => document.removeEventListener('click', handleDocClick);
   }, []);
 
-//   const handleMouseLeave = () => {
-//     setExpandedId(null);
-//   };
 
   const boardMembersData = [
   {

@@ -101,8 +101,10 @@ function Home() {
     <div className='app-page-container home-page'>
       <div className='mission-social-container'>
         <div className='mission-social-call-out-icons-container'>
+          <h1>Welcome to the Volkswagen Collective of Milwaukee</h1>
           <p className='mission-social-call-out'>
-            Follow our club's adventures!
+            Follow our club's adventures and feel free to reach out about
+            membership!
           </p>
 
           <div className='mission-social-icon-container'>
