@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#fb-root {
+  height: 100%;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.349);
+}
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.fb-plugin-container,
+.home {
+  width: 100%;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+}
+
+.profile-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image fills the space */
+  margin-bottom: 20px;
+}
+
+.profile-name {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.profile-description {
+  font-size: 1.2em;
+}
